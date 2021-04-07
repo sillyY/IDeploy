@@ -1,0 +1,29 @@
+{
+  "name": "ideploy",
+  "version": "1.0.0",
+  "description": "deploy service",
+  "main": "index.js",
+  "bin": {
+    "ideploy": "bin/deploy"
+  },
+  "scripts": {
+    "watch": "rollup --watch --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sillyY/ideploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sillyY/ideploy/issues"
+  },
+  "homepage": "https://github.com/sillyY/ideploy#readme",
+  "dependencies": {
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0",
+    "commander": "^7.1.0",
+    "ora": "^5.4.0",
+    "shelljs": "^0.8.4"
+  }
+}
